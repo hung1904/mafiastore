@@ -16,13 +16,11 @@ public class MafiaStoreResponse {
 		super();
 	}
 	
-	public MafiaStoreResponse(String type, int code, String message, Object data, Object errors) {
+	public MafiaStoreResponse(String type, int code, String message) {
 		super();
 		this.type = type;
 		this.code = code;
 		this.message = message;
-		this.data = data;
-		this.errors = errors;
 	}
 
 	public String getType() {
